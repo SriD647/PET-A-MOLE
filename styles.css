@@ -1,47 +1,42 @@
 * {
-    margin:0;
+    margin:0 auto;
     padding:0;
-    box-sizing: border-box;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
 
 html {
     background-size: cover;
-    background-image: url(green-grass.avif);
+    background-image: url(green-grass.jpg);
     background-repeat: no-repeat;
 
 }
 
 .box {
-    min-height: 100vh;
     height: 100vh;
     width: 100vw;
     display: grid;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
 
 .main {
-    display:grid;
-    flex-direction: column;
-    align-content: center;
-    /* width: 50rem; */
     margin: 20px auto;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center; 
+    margin-bottom: 50px;
 
 }
 
-.main h1 {
+#title {
     font-size: 54px;
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 0px 3px 1px black;
     background-color: brown;
     padding: 12px 5px;
     border-radius: 30px;
+    margin-bottom: -5px;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .main h2 {
@@ -49,92 +44,65 @@ html {
     background: brown;
     border-radius: 20px;
     margin: 6px;
-    box-shadow: 1px 1px 3px black;
-    padding: 12px 5px;
-    margin-top: 30px;
+    box-shadow: 0px 2px 0px black;
+    padding: 12px 8px;
+    margin-top: 0px;
 }
 
 
 nav {
-    display: flex;
     justify-content: center;
+    font-size: 20px;
+    font-style: bold;
+    margin-top: 30px;
+    margin-left: 130px;
 }
 
  button {
-    width: 12rem;
-    padding: 12px 5px;
+    padding: 5px 4px;
     border-radius: 20px;
     border: none;
-    text-emphasis-style: bold;
     background-color: brown;
-    box-shadow: 1px 1px 3px black;
+    box-shadow: 0px 3px 1px black;
     margin: 6px;
-    font-size: large;
-    display: row;
-
+    font-size: 20px;
+    font-style: bold;
+    width: 131px;
+    margin-top: 5px;
 } 
 
-/* button:hover {
-    cursor: bold;
-}   */
+button:hover {
+    color: gainsboro;
+}  
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    flex-wrap: wrap;
-    width: 54 rem;
-    justify-content: center;
-    position: relative;
-    margin-bottom: 150px;
-    margin-left: 50px;
-
+    margin-bottom: 10px;
 }
+
+.grid:hover {
+    cursor: url(Righthand.png) 60 25, auto;
+}
+
+
 
 .location {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border: 1px  solid black;
-    margin: 10px;
     border-radius: 50%;
-    box-shadow: inset -2px 10px 0 7px rgb(53, 21, 6),
-                inset 0px 20px 20px 11px rgba(0,0,0,0.3);
-
     background-color: rgb(165,85,11);
-    position: relative;
     overflow: hidden;
+    margin: 10px;
 
 }
 
-.location.mole {
-    width: 70%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    animation: rise .3s ease-out;
-}
-
-
-@keyframes rise {
-  0% {
-    transform: translateX(-50%) translateY(-100%);
-  }
-  100% {
-    transform: translateX(-50%) translateY(0);
-  }  
-    
-}
-
-
-.cursor {
-    height: 80px;
-    width: 85px;
-    background-color: none;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    /* background-image: url(petting-hand-meme.gif); */
-    background-size: 100px;
-    transform: translate(-20%, -20%);
-}
+.mole {
+    background: url(Mole3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(165,85,11);
+} 
 
