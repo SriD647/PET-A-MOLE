@@ -7,8 +7,6 @@ Your lawn has been swarmed by friendly moles and the only way to get them on the
 
 The game is dervived from the original whack-a-mole, in which the players use a hammer to hit as many moles as possible in a round. However, this game has some controversy around it as the concept technically involves animal abuse. Hence, the game was modified by replacing the idea of hitting the animals to petting them.
 
-For best experience, aim the fingertips at the center of the mole's body. Google Chrome browser is recommended.
-
 ## **Technologies used**
 HTML, CSS, and Javascript
 
@@ -18,6 +16,12 @@ HTML, CSS, and Javascript
 * Better styling and layout
 * Tighter and more efficient code
 * Sound effects
+
+## **Getting started-Important details**
+* After a round has completed, the reset button must be clicked before the start button to initiate a new round. 
+* Clicking a mole multiple times before it can switch positions will not count. The system will only count the first click.
+* For the best experience, aim the fingertips at the center of the mole's body. 
+* Google Chrome browser is recommended.
 
 ## **Screenshots**
 <img src=https://i.imgur.com/letK6R9.jpeg width=60% height=60%>
