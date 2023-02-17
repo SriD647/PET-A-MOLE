@@ -24,6 +24,6 @@ HTML, CSS, and Javascript
 * Google Chrome browser is recommended.
 
 ## **Screenshots**
-<img src=https://i.imgur.com/letK6R9.jpeg width=60% height=60%>
-<img src=https://i.imgur.com/IG1Ixr6.jpeg width=60% height=60%>
+<img src=https://i.imgur.com/MkJk9Q3.jpg width=60% height=60%>
+<img src=https://i.imgur.com/OsTCImN.jpg width=60% height=60%>
 
