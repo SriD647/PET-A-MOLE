@@ -23,6 +23,8 @@ HTML, CSS, and Javascript
 * For the best experience, aim the fingertips at the center of the mole's body. 
 * Google Chrome browser is recommended.
 
+Link to deploy game: https://srid647.github.io/PET-A-MOLE/
+
 ## **Screenshots**
 <img src=https://i.imgur.com/MkJk9Q3.jpg width=60% height=60%>
 <img src=https://i.imgur.com/OsTCImN.jpg width=60% height=60%>
