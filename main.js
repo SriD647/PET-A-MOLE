@@ -40,8 +40,6 @@ function begin() {
         currentTime=10;
         Timer=setInterval(showMole, 620);
         timeTimer=setInterval(countDown, 1000);
-        timeTimer.innerText = `Countdown: ${0}`
-        scoreCount.innerText = `Moles petted: ${score}`
         alreadyStart=false;
     }    
 }
