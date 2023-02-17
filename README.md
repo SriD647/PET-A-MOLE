@@ -7,15 +7,13 @@ Your lawn has been swarmed by friendly moles and the only way to get them on the
 
 The game is dervived from the original whack-a-mole, in which the players use a hammer to hit as many moles as possible in a round. However, this game has some controversy around it as the concept technically involves animal abuse. Hence, the game was modified by replacing the idea of hitting the animals to petting them.
 
+## **Screenshots**
+<img src=https://i.imgur.com/MkJk9Q3.jpg width=60% height=60%>
+<img src=https://i.imgur.com/OsTCImN.jpg width=60% height=60%>
+
+
 ## **Technologies used**
 HTML, CSS, and Javascript
-
-## **ICE Box items**
-* Different levels of difficulty
-* A pause button
-* Better styling and layout
-* Tighter and more efficient code
-* Sound effects
 
 ## **Getting started-Important details**
 * After a round has completed, the reset button must be clicked before the start button to initiate a new round. 
@@ -25,7 +23,10 @@ HTML, CSS, and Javascript
 
 Link to deploy game: https://srid647.github.io/PET-A-MOLE/
 
-## **Screenshots**
-<img src=https://i.imgur.com/MkJk9Q3.jpg width=60% height=60%>
-<img src=https://i.imgur.com/OsTCImN.jpg width=60% height=60%>
+## **ICE Box items**
+* Different levels of difficulty
+* A pause button
+* Better styling and layout
+* Tighter and more efficient code
+* Sound effects
 
