@@ -69,11 +69,11 @@ function countDown () {
         currentTime=0;
         clearInterval(timeTimer)
         clearInterval(Timer)
-        if (score<12) {
+        if (score<13) {
             titleEl.innerText ='Game over, you lost!';
             startEl.removeEventListener ('click', begin);
         }
-        if(score>=12) {
+        if(score>=13) {
             titleEl.innerText ='Game over, you won!';
             startEl.removeEventListener ('click', begin);   
         }
